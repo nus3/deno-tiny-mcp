@@ -1,0 +1,6 @@
+# 環境変数
+.env
+.env.local
+
+# macOS
+.DS_Store
