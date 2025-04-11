@@ -17,7 +17,7 @@ async function main() {
   // UUID生成ツールを追加
   server.tool(
     "generate-uuid",
-    {}, // 入力パラメータなし
+    "ランダムなUUIDを生成します",
     () => {
       // UUID生成処理を呼び出し
       const uuid = generateUuid();
